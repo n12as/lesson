@@ -59,12 +59,20 @@ nav {
   font-weight: 500;
   line-height: 18.96px;
   color: #fff;
+  cursor: pointer;
+  transition: 0.4s linear;
+}
+
+.navbar__right button:hover {
+  transform: scale(1.05);
 }
 
 .navbar__right button img {
   width: 20px;
   height: 20px;
 }
+
+
 
 .news {
   padding: 22px 24px;
